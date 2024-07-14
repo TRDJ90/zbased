@@ -9,4 +9,5 @@ export fn add(a: i32, b: i32) i32 {
 
 test {
     _ = @import("core/ringbuffer.zig");
+    _ = @import("core/stack.zig");
 }
